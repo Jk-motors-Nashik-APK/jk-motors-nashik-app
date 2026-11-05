@@ -1,0 +1,8 @@
+{
+  "name": "Remix JK Motors — Premium Pre-Owned Car Marketplace",
+  "description": "Official mobile marketplace and owner management dashboard for JK Motors, Nashik. Verified pre-owned luxury and commuter cars, video walk-arounds, WhatsApp booking, and dealership CRM.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
