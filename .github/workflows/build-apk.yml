@@ -12,8 +12,8 @@ jobs:
         with:
           distribution: temurin
           java-version: 21
-      - run: npm install
-      - run: npm install @capacitor/core @capacitor/cli @capacitor/android
+      - run: npm install --legacy-peer-deps
+      - run: npm install @capacitor/core @capacitor/cli @capacitor/android --legacy-peer-deps
       - run: npx cap init "JK Motors Nashik" com.jkmotors.nashik --web-dir=dist
       - run: npm run build
       - run: npx cap add android
